@@ -1,5 +1,5 @@
-﻿using Area52Lanches.Models.Context;
-using Area52Lanches.Models;
+﻿using Area52Lanches.Models;
+using Area52Lanches.Models.Context;
 using Area52Lanches.Repositories;
 using Area52Lanches.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;

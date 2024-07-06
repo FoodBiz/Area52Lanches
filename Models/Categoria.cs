@@ -1,7 +1,10 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Area52Lanches.Models;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Area52Lanches.Models
 {
+    [Table("Categorias")]
     public class Categoria
     {
         [Key]
@@ -16,6 +19,6 @@ namespace Area52Lanches.Models
         [Display(Name = "Descrição")]
         public string Descricao { get; set; }
 
-        public List<Lanche> Lanche { get; set; }
+        public List<Lanche> Lanches { get; set; }
     }
 }

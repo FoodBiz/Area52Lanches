@@ -1,0 +1,13 @@
+﻿@model Lanche   
+
+<div class="col-sm-4 col-md-4 col-lg-4">
+    @{
+        var fileName = Model.ImagemUrl.Substring(Model.ImagemUrl.LastIndexOf('/') + 1);
+    }
+    <p><img src="~/images/@fileName" width="300px" height="300px" class="img-fluid" /></p>
+    @*Optei por fazer desta maneira acima, pois assim não funcinou:
+    <p><img src="@lanche.ImagemUrl" class="img-fluid" /></p>*@
+    <h3>Preço: @Model.Preco.ToString("c")</h3>
+    <h4>@Model.Nome</h4>
+    <p>@Model.DescricaoCurta</p>
+</div>

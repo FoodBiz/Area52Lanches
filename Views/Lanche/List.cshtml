@@ -5,20 +5,10 @@
 </div>
 
 <div class="container">
-<div class="row">
-@foreach (var lanche in Model.Lanches)
-{
-    <div class="col-sm-4 col-md-4 col-lg-4">
-       @{
-         var fileName = lanche.ImagemUrl.Substring(lanche.ImagemUrl.LastIndexOf('/') + 1);
+    <div class="row">
+        @foreach (var lanche in Model.Lanches)
+        {
+            <partial name="_LanchesResumo" for="@lanche"/>
         }
-       <p><img src="~/images/@fileName" width="300px" height="300px" class="img-fluid"/></p>
-        @*Optei por fazer desta maneira acima, pois assim não funcinou:
-        <p><img src="@lanche.ImagemUrl" class="img-fluid" /></p>*@
-       <h3>Preço: @lanche.Preco.ToString("c")</h3>
-       <h4>@lanche.Nome</h4>
-       <p>@lanche.DescricaoCurta</p>
     </div>
-}
-</div>
 </div>

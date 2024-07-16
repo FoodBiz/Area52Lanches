@@ -1,5 +1,5 @@
 ﻿using Area52Lanches.Models;
-using Area52Lanches.Models.Context;
+using Area52Lanches.Context;
 using Area52Lanches.Repositories.Interfaces;
 
 namespace Area52Lanches.Repositories

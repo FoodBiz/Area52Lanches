@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 
 
-namespace Area52Lanches.Models.Context
+namespace Area52Lanches.Context
 {
     public class AppDbContext : DbContext
     {

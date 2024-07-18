@@ -4,8 +4,8 @@ Este é um projeto desenvolvido em C# para um site de pedidos de lanches. O proj
 
 ## Funcionalidades Atuais
 
-- **Home:** Página inicial com banners e lanches favoritos em destaque.
-- **Lanches:** Visualização de todas as opções de lanches disponíveis.
+- **✅Home:** Página inicial com banners e lanches favoritos em destaque.
+- **✅Lanches:** Visualização de todas as opções de lanches disponíveis.
 
 ## Em construção
 

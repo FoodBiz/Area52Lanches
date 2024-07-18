@@ -29,3 +29,5 @@ O projeto está atualmente hospedado na Azure, utilizando serviços de domínio 
 ## Desafios e Aprendizados
 
 Desde o início, o projeto tem sido uma jornada repleta de desafios e aprendizados. A criação e configuração do banco de dados na Azure Portal, a definição de regras e a criação de grupos de recursos foram alguns dos desafios iniciais enfrentados. Lidar com bugs e problemas técnicos ao longo do desenvolvimento tem sido crucial para meu aprendizado contínuo.
+
+PS: O Projeto hospedado em meu repositório consta como um fork, pois estou trabalhando diretamente no grupo FoodBiz [https://github.com/FoodBiz/Area52Lanches](https://github.com/FoodBiz/) caso queiram uma visão mais detalhada no projeto.

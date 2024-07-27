@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Area52Lanches/config/applicationhost.config
+/.vs/Area52Lanches/FileContentIndex/4e590be5-fcfe-4860-b767-95781b155449.vsidx
+/.vs/Area52Lanches/FileContentIndex
+/.vs/Area52Lanches/v17/DocumentLayout.json
+/.vs/Area52Lanches/v17
+/.vs
+/.vs/slnx.sqlite
+/bin/Debug/net6.0
+/bin/Debug/net6.0/runtimes
